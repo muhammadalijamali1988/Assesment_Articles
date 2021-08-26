@@ -29,15 +29,14 @@ class APIDownloaderService {
                 else if
                       let data = data,
                       let response = response as? HTTPURLResponse,
-                      response.statusCode == 200 {
-                      print("Data downloaded")
-                     //print(String(data: data, encoding: .utf8))
+                    response.statusCode == HTTPResponseCodes.OK.rawValue {
+                     
                      let articles = JsonParser.parseArticles(data:data)
                      success(articles)
                     
                 } // end of the error code
                 else {
-                    print("Response Code is not 200")
+                   
                 }
                 
              

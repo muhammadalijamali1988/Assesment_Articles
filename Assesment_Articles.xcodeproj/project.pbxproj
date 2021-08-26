@@ -28,6 +28,7 @@
 		132394D926D6F1F00070B28F /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132394D826D6F1F00070B28F /* ArticleTableViewCell.swift */; };
 		132394DB26D6F4A80070B28F /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132394DA26D6F4A80070B28F /* ArticleViewModel.swift */; };
 		132394DD26D6F9920070B28F /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132394DC26D6F9920070B28F /* ArticleDetailViewController.swift */; };
+		13F6F4F226D76B9300209362 /* HttpClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F6F4F126D76B9300209362 /* HttpClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		132394D826D6F1F00070B28F /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		132394DA26D6F4A80070B28F /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		132394DC26D6F9920070B28F /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		13F6F4F126D76B9300209362 /* HttpClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		132394A026D6461C0070B28F /* Assesment_ArticlesTests */ = {
 			isa = PBXGroup;
 			children = (
+				13F6F4F126D76B9300209362 /* HttpClientTests.swift */,
 				132394A126D6461C0070B28F /* Assesment_ArticlesTests.swift */,
 				132394A326D6461C0070B28F /* Info.plist */,
 			);
@@ -400,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F6F4F226D76B9300209362 /* HttpClientTests.swift in Sources */,
 				132394A226D6461C0070B28F /* Assesment_ArticlesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

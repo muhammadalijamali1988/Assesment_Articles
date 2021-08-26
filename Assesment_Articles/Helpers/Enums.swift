@@ -26,3 +26,7 @@ enum AppModes {
     case UAT
     case QA
 }
+
+enum HTTPResponseCodes : Int{
+    case OK = 200
+}
