@@ -11,8 +11,12 @@ typealias DefaultAPIFailureClosure = (NSError) -> Void
 typealias EmptyClosure = () -> ()
 class APIDownloaderService {
      private var dataTask: URLSessionDataTask?
-     private let defaultSession = URLSession(configuration: .default)
+    private let defaultSession : URLSession
     
+    // Provide URL Session in the constructor to Inject
+     init(urlSession: URLSession = URLSession.shared) {
+        self.defaultSession = urlSession
+      }
     func downloadArticles(success : @escaping(ArticleAPISuccessClosure), failure : @escaping(DefaultAPIFailureClosure)) {
         dataTask?.cancel()
         print("Download Articles \(Constants.baseURL)")
@@ -20,6 +24,7 @@ class APIDownloaderService {
             guard let url = urlComp.url else {
                 return
             }
+            print(url)
         dataTask =
                defaultSession.dataTask(with: url) { [weak self] data, response, error in
                defer { self?.dataTask = nil}

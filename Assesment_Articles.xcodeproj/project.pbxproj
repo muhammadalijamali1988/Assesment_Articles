@@ -29,6 +29,7 @@
 		132394DB26D6F4A80070B28F /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132394DA26D6F4A80070B28F /* ArticleViewModel.swift */; };
 		132394DD26D6F9920070B28F /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132394DC26D6F9920070B28F /* ArticleDetailViewController.swift */; };
 		13F6F4F226D76B9300209362 /* HttpClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F6F4F126D76B9300209362 /* HttpClientTests.swift */; };
+		13F6F4F426DA300A00209362 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F6F4F326DA300A00209362 /* MockURLProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		132394DA26D6F4A80070B28F /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		132394DC26D6F9920070B28F /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 		13F6F4F126D76B9300209362 /* HttpClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientTests.swift; sourceTree = "<group>"; };
+		13F6F4F326DA300A00209362 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				13F6F4F126D76B9300209362 /* HttpClientTests.swift */,
 				132394A126D6461C0070B28F /* Assesment_ArticlesTests.swift */,
 				132394A326D6461C0070B28F /* Info.plist */,
+				13F6F4F326DA300A00209362 /* MockURLProtocol.swift */,
 			);
 			path = Assesment_ArticlesTests;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F6F4F426DA300A00209362 /* MockURLProtocol.swift in Sources */,
 				13F6F4F226D76B9300209362 /* HttpClientTests.swift in Sources */,
 				132394A226D6461C0070B28F /* Assesment_ArticlesTests.swift in Sources */,
 			);

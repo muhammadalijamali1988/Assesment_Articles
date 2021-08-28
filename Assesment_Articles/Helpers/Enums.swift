@@ -30,3 +30,9 @@ enum AppModes {
 enum HTTPResponseCodes : Int{
     case OK = 200
 }
+enum APIResponseError : Error {
+    case network
+    case parsing
+    case request
+    
+}
